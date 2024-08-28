@@ -1,4 +1,4 @@
-#Introdução
+# Introdução ao Projeto
 
 O projeto em questão é uma aplicação web e desktop destinada à conversão e organização de dados espectrais obtidos de espectrogramas digitais. O objetivo principal é desenvolver uma ferramenta eficiente que permita a conversão de arquivos de PDF contendo espectrogramas para o formato TXT e, subsequentemente, organize esses dados em planilhas Excel para fácil visualização e análise.
 
