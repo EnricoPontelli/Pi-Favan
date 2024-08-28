@@ -4,7 +4,7 @@ Tema: Software para conversão e organização de dados expectais obtidas espect
 
 Resumo P.I: Trata-se de uma ferramenta de software para a conversão e organização de dados espectrais. O software permite importar, converter e visualizar dados, possibilitando a categorização e exportação em formatos padronizados. Este software estará disponível nas versões desktop e web, sendo adequado para pesquisadores, empresas e educadores que buscam uma análise de dados espectrais de maneira eficiente e acessível.
 
-linguagem: python, react, node js, mysql, mongoDB, php
+linguagem: python, react, node js, express, mongoDB
 
 nivel de habilidade de cada membro com base em: 1(não sei nada) 2(conhecimento basico) 3(conhcimento moderado) 4(conhecimento avançado) 5(sei ensinar) 6(sei criar)
 
