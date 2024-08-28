@@ -1,22 +1,34 @@
 # Matriz de Habilidades dos Integrantes
 
-| Membro  | Habilidades                 | Responsabilidade no Projeto            |
-|---------|-----------------------------|----------------------------------------|
-| Enrico p| Python, Pandas               | Conversão de PDF para TXT, Criação de Excel     |
-| Lucas M| React, Tailwind CSS          | Desenvolvimento da Interface Gráfica            |
-| Felipe A| Node.js, Express.js, MongoDB | Implementação da API, CRUD e Gerenciamento de Dados |
+| Tecnologia   | Lucas M.                 | Enrico P.                 | Felipe A.                  |
+|--------------|---------------------------|---------------------------|---------------------------|
+| **Python**   | Conhece a tecnologia       | Sabe criar com a tecnologia| Nenhum conhecimento        |
+| **Pandas**   | Nenhum conhecimento        | Conhece a tecnologia       | Sabe ensinar a tecnologia  |
+| **React**    | Sabe criar com a tecnologia| Nenhum conhecimento        | Conhece a tecnologia       |
+| **Tailwind CSS** | Conhece a tecnologia    | Sabe ensinar a tecnologia  | Sabe criar com a tecnologia|
+| **Node.js**  | Nenhum conhecimento        | Conhece a tecnologia       | Sabe criar com a tecnologia|
+| **Express.js** | Conhece a tecnologia     | Sabe criar com a tecnologia| Sabe ensinar a tecnologia  |
+| **MongoDB**  | Sabe ensinar a tecnologia  | Nenhum conhecimento        | Conhece a tecnologia       |
+
+## Legenda
+
+- **Nenhum conhecimento:** O membro não possui conhecimento ou experiência com a tecnologia.
+- **Conhece a tecnologia:** O membro tem um entendimento básico da tecnologia e pode utilizá-la para tarefas simples.
+- **Sabe criar com a tecnologia:** O membro tem habilidades suficientes para desenvolver funcionalidades utilizando a tecnologia.
+- **Sabe ensinar a tecnologia:** O membro é proficiente na tecnologia a ponto de poder ensinar ou orientar outros membros da equipe.
 
 ## Detalhamento das Responsabilidades
 
-### Enrico: Python Developer
-- **Habilidades:** Especializado em Python e Pandas.
-- **Responsabilidades:** Desenvolver scripts para a conversão de arquivos PDF em TXT e organizar os dados em arquivos Excel.
+### Lucas M.
+- **Pontos Fortes:** React, Tailwind, node js, Pytho.
+- **Responsabilidades:** Trabalhar na interface gráfica e auxiliar na configuração do banco de dados.
 
-### Lucas: Frontend Developer
-- **Habilidades:** Experiência em React e Tailwind CSS.
-- **Responsabilidades:** Criar a interface web responsiva que exibirá os gráficos dos dados espectrais.
+### Membro 2
+- **Pontos Fortes:** Python, Express.js.
+- **Responsabilidades:** Desenvolver a API backend e colaborar na conversão de dados com Python.
 
-### Felipe: Backend Developer
-- **Habilidades:** Experiência com Node.js, Express.js e MongoDB.
-- **Responsabilidades:** Desenvolver o backend da aplicação, incluindo a API RESTful e o CRUD para gerenciamento dos dados espectrais.
+### Membro 3
+- **Pontos Fortes:** Pandas, Express.js.
+- **Responsabilidades:** Ensinar e orientar sobre Pandas, contribuir na criação da API e ajudar com Tailwind CSS no frontend.
+
 
