@@ -1,11 +1,12 @@
 # Escopo do Projeto
 
 ## Objetivo
-O objetivo deste projeto é desenvolver uma aplicação web/desktop para a conversão e organização de dados espectrais obtidos de espectrogramas digitais, organizando esses dados em arquivos Excel e exibindo gráficos desses dados. A aplicação também permitirá a manipulação dos dados através de uma API, implementando operações CRUD (Create, Read, Update, Delete) utilizando Node.js, Express.js e MongoDB.
+O objetivo deste projeto é desenvolver uma aplicação web/desktop para a conversão e organização de dados espectrais obtidos de espectrogramas digitais, organizando esses dados em arquivos Excel e exibindo gráficos desses dados em uma pagina web. A aplicação também permitirá a visualização dos dados através de uma API, implementando operações CRUD (Create, Read, Update, Delete) utilizando Node.js, Express.js e MongoDB.
 
 ## Metas
 - Implementar a conversão de arquivos PDF para TXT usando Python.
 - Organizar e salvar os dados espectrais em arquivos Excel.
+- Tranferir a planilha criada em Excel  para um  banco de dados.
 - Desenvolver uma interface web para exibição dos gráficos, utilizando React e Tailwind.
 - Criar uma API RESTful usando Node.js, Express.js e MongoDB para gerenciar os dados espectrais.
 - Implementar operações CRUD através da API para gerenciamento completo dos dados.
@@ -17,7 +18,7 @@ O objetivo deste projeto é desenvolver uma aplicação web/desktop para a conve
 
 ## Limitações
 - O projeto não incluirá análises avançadas dos dados espectrais, focando apenas na conversão, organização e visualização básica.
-- A interface web será destinada apenas à visualização e manipulação simples dos dados, sem suporte para edição avançada.
+- A interface web será destinada apenas à visualização  simples dos dados, sem suporte para edição avançada.
 
 ## Exclusões do Escopo
 - Funcionalidades de análise espectral avançada.
