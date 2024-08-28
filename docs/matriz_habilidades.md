@@ -20,7 +20,7 @@
 ## Detalhamento das Responsabilidades
 
 ### Lucas M.
-- **Pontos Fortes:** React, Tailwind, node js, Pytho.
+- **Pontos Fortes:** React, Tailwind, node js, Python.
 - **Responsabilidades:** Trabalhar na interface gráfica e auxiliar na configuração do banco de dados.
 
 ### Membro 2
