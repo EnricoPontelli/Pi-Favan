@@ -2,15 +2,15 @@
 
 - Semana 1: Análise de Requisitos e Definição do Escopo
 
-Atividade: Reuniões com o grupo para definir o escopo do projeto e alinhar os objetivos.
+ Atividade: Reuniões com o grupo para definir o escopo do projeto e alinhar os objetivos.
 
-Entrega: Documento de Escopo
+ Entrega: Documento de Escopo
 
 - Semana 2: Implementação da Conversão de PDF para TXT (Python)
 
-Atividade: Desenvolvimento de scripts Python para conversão de arquivos PDF em TXT.
+ Atividade: Desenvolvimento de scripts Python para conversão de arquivos PDF em TXT.
 
-Entrega: Script funcional para conversão de PDF
+ Entrega: Script funcional para conversão de PDF
 
 - Semana 3: Criação e Organização dos Dados em Excel (Python)
 
