@@ -3,12 +3,12 @@
 | Tecnologia   | Lucas M.                 | Enrico P.                 | Felipe A.                  |
 |--------------|---------------------------|---------------------------|---------------------------|
 | **Python**   | Conhece a tecnologia       | Sabe criar com a tecnologia| Nenhum conhecimento        |
-| **Pandas**   | Nenhum conhecimento        | Conhece a tecnologia       | Sabe ensinar a tecnologia  |
+| **Pandas**   | Conhece a tecnologia         | Conhece a tecnologia       | Sabe ensinar a tecnologia  |
 | **React**    | Sabe criar com a tecnologia| Nenhum conhecimento        | Conhece a tecnologia       |
 | **Tailwind CSS** | Conhece a tecnologia    | Sabe ensinar a tecnologia  | Sabe criar com a tecnologia|
-| **Node.js**  | Nenhum conhecimento        | Conhece a tecnologia       | Sabe criar com a tecnologia|
+| **Node.js**  | Conhece a tecnologia        | Conhece a tecnologia       | Sabe criar com a tecnologia|
 | **Express.js** | Conhece a tecnologia     | Sabe criar com a tecnologia| Sabe ensinar a tecnologia  |
-| **MongoDB**  | Sabe ensinar a tecnologia  | Nenhum conhecimento        | Conhece a tecnologia       |
+| **MongoDB**  | Conhece a tecnologia  | Nenhum conhecimento        | Conhece a tecnologia       |
 
 ## Legenda
 
