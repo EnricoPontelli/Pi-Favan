@@ -23,11 +23,11 @@
 - **Pontos Fortes:** React, Tailwind, node js, Python.
 - **Responsabilidades:** Trabalhar na interface gráfica e auxiliar na configuração do banco de dados.
 
-### Membro 2
+### Enrico P.
 - **Pontos Fortes:** Python, Express.js.
 - **Responsabilidades:** Desenvolver a API backend e colaborar na conversão de dados com Python.
 
-### Membro 3
+### Felipe A.
 - **Pontos Fortes:** Pandas, Express.js.
 - **Responsabilidades:** Ensinar e orientar sobre Pandas, contribuir na criação da API e ajudar com Tailwind CSS no frontend.
 
