@@ -4,10 +4,10 @@
 |--------------|---------------------------|---------------------------|---------------------------|
 | **Python**   | Conhece a tecnologia       | Sabe criar com a tecnologia| conhece a tecnologia   |
 | **Pandas**   | Conhece a tecnologia         | Conhece a tecnologia       | conhece a tecnologia  |
-| **React**    | Sabe criar com a tecnologia| Nenhum conhecimento        | Conhece a tecnologia   |
-| **Tailwind CSS** | Conhece a tecnologia    | Sabe ensinar a tecnologia  | conhece a tecnologia|
+| **React**    | Sabe criar com a tecnologia| conhece a tecnologia       | Conhece a tecnologia   |
+| **Tailwind CSS** | Conhece a tecnologia    | conhece a tecnologia  | conhece a tecnologia|
 | **Node.js**  | Conhece a tecnologia        | Conhece a tecnologia       | conhece a tecnologia|
-| **Express.js** | Conhece a tecnologia     | Sabe criar com a tecnologia| conhece a tecnologia  |
+| **Express.js** | Conhece a tecnologia     | conhece a tecnologia| conhece a tecnologia  |
 | **MongoDB**  | Conhece a tecnologia  | conhece a atecnologia   | Conhece a tecnologia       |
 
 ## Legenda
