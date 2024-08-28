@@ -20,26 +20,26 @@
 
 - Semana 4-5: Desenvolvimento da Interface Gráfica (React, Tailwind)
 
-Atividade: Criação da interface web para exibição dos gráficos dos dados espectrais.
+  Atividade: Criação da interface web para exibição dos gráficos dos dados espectrais.
 
-Entrega: Protótipo funcional da interface gráfica
+  Entrega: Protótipo funcional da interface gráfica
 
 - Semana 6: Desenvolvimento do Backend com Node.js, Express.js e MongoDB
 
-Atividade: Configuração do backend, API RESTful, e integração com MongoDB.
+  Atividade: Configuração do backend, API RESTful, e integração com MongoDB.
 
-Entrega: API funcional com endpoints para manipulação dos dados
+  Entrega: API funcional com endpoints para manipulação dos dados
 
 - Semana 7: Implementação do CRUD utilizando a API desenvolvida
 
-Atividade: Desenvolvimento das operações CRUD (Create, Read, Update, Delete) para gerenciamento dos dados.
+  Atividade: Desenvolvimento das operações CRUD (Create, Read, Update, Delete) para gerenciamento dos dados.
 
-Entrega: Funcionalidades CRUD integradas à aplicação
+  Entrega: Funcionalidades CRUD integradas à aplicação
 
 - Semana 8: Integração, Testes e Finalização
 
-Atividade: Integração final das partes do sistema, testes de funcionalidade e correções.
+  Atividade: Integração final das partes do sistema, testes de funcionalidade e correções.
 
-Entrega: Versão final da aplicação pronta para apresentação
+  Entrega: Versão final da aplicação pronta para apresentação
 
 
