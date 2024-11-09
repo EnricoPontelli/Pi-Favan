@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { FaUser,FaLock } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -6,14 +7,21 @@ export default function Home() {
       <img
       src={'/login.jpg'} alt={""} className="w-screen h-screen"/>
       <div className="absolute top-0 w-full h-full flex items-center justify-center">
-        <div className=" bg-green-50 rounded-md bg-opacity-50 w-72 h-96 justify-center justify-items-center shadow-lg shadow-green-700/70">
-          <div className="">
-            <h1 className="text-white">Spectrasync</h1>
-            <div>
-
+        <div className=" bg-green-50 rounded-md bg-opacity-50 w-72 h-96 justify-center justify-items-center shadow-lg shadow-green-700/70  space-y-20">
+          <div className=" flex justify-center items-center flex-col content-center space-y-16 ">
+            <h1 className="text-neutral-600  text-2xl font-mono font-semibold top-12 opacity-60">Spectrasync</h1>
+            <div className="  flex justify-center items-center flex-col content-center space-y-10">
+              <div className=" relative flex justify-end items-end  ">
+                <input type="text" placeholder="User" name="User"  className="max-w-xl h-8 rounded-md text-neutral-600 bg-transparent border-b outline-none border-neutral-600 shadow-md shadow-green-700/70"/>
+                <FaUser className="absolute text-neutral-600 mb-2  "/>
+              </div>
+              <div className="relative flex justify-end items-end  ">
+                <input type="password" placeholder="Password" name="Password"  className="max-w-xl h-8 rounded-md text-neutral-600 bg-transparent border-b outline-none border-neutral-600 shadow-md shadow-green-700/70"  />
+                <FaLock className="absolute text-neutral-600 mb-2  "  />
+              </div>
             </div>
-            <div>
-
+            <div className="">
+              <button className="bg-transparent border-b text-green-600 font-semibold border-neutral-600 rounded-md w-36 h-12 shadow-xl shadow-green-700/80">Login</button>
             </div>
           </div>
         </div>
