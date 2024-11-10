@@ -1,7 +1,8 @@
 import Image from "next/image";
 import { FaUser,FaLock } from "react-icons/fa";
+import Link from "next/link";
 
-export default function Home() {
+export default function Login() {
   return (
     <div className="h-screen w-screen ">
       <img
@@ -21,7 +22,9 @@ export default function Home() {
               </div>
             </div>
             <div className="">
-              <button className="bg-transparent border-b text-green-600 font-semibold border-neutral-600 rounded-md w-36 h-12 shadow-xl shadow-green-700/80">Login</button>
+              <Link href={'/excel'}>
+               <button className="bg-transparent border-b text-green-600 font-semibold border-neutral-600 rounded-md w-36 h-12 shadow-xl shadow-green-700/80">Login</button>
+              </Link>
             </div>
           </div>
         </div>
