@@ -3,19 +3,26 @@ import Image from "next/image";
 import { FaUser,FaLock } from "react-icons/fa";
 import Link from "next/link";
 import { useState } from "react";
-import { headers } from "next/headers";
+import axios from "axios";
 
 
 export default function Login() {
   const [email,setEmail] = useState('');
   const [password,setPassword] = useState('');
+  const [error,setError] = useState('');
 
-  const handleLogin = async (e) => {
-    e.preventDefault();
-
+  const handleLogin = async() => {
     console.log(email,password);
+    try{
 
-    const response = await axios.post('http://localhost:3000',JSON.stringify({email,password}),{headers:{'content-type':'application/json'}});
+      const response = await axios.post('http://localhost:3333',JSON.stringify({email,password}),{headers:{'Content-Type':'application/json'}});
+    }catch (error){
+      if (!error?.response){
+        setError('Erro ao acessar o servidor ');
+      }else if(error.response.status == 401){
+        setError('')
+      }
+    }
   }
   return (
     <div className="h-screen w-screen ">
@@ -36,8 +43,8 @@ export default function Login() {
               </div>
             </div>
             <div className="">
-              <Link href={'/excel'}>
-               <button className="bg-transparent border-b text-green-600 font-semibold border-neutral-600 rounded-md w-36 h-12 shadow-xl shadow-green-700/80">Login</button>
+              <Link href={''}>
+               <button onClick={handleLogin} type="submit" className="bg-transparent border-b text-green-600 font-semibold border-neutral-600 rounded-md w-36 h-12 shadow-xl shadow-green-700/80">Login</button>
               </Link>
             </div>
           </div>
