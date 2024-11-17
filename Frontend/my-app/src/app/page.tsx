@@ -3,11 +3,20 @@ import Image from "next/image";
 import { FaUser,FaLock } from "react-icons/fa";
 import Link from "next/link";
 import { useState } from "react";
+import { headers } from "next/headers";
 
 
 export default function Login() {
   const [email,setEmail] = useState('');
   const [password,setPassword] = useState('');
+
+  const handleLogin = async (e) => {
+    e.preventDefault();
+
+    console.log(email,password);
+
+    const response = await axios.post('http://localhost:3000',JSON.stringify({email,password}),{headers:{'content-type':'application/json'}});
+  }
   return (
     <div className="h-screen w-screen ">
       <img
