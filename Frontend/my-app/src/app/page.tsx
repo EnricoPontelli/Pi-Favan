@@ -1,8 +1,13 @@
+"use client";
 import Image from "next/image";
 import { FaUser,FaLock } from "react-icons/fa";
 import Link from "next/link";
+import { useState } from "react";
+
 
 export default function Login() {
+  const [email,setEmail] = useState('');
+  const [password,setPassword] = useState('');
   return (
     <div className="h-screen w-screen ">
       <img
@@ -13,11 +18,11 @@ export default function Login() {
             <h1 className="text-neutral-600  text-2xl font-mono font-semibold top-12 opacity-60">Spectrasync</h1>
             <div className="  flex justify-center items-center flex-col content-center space-y-10">
               <div className=" relative flex justify-end items-end  ">
-                <input type="text" placeholder="User" name="User"  className="max-w-xl h-8 rounded-md text-neutral-600 bg-transparent border-b outline-none border-neutral-600 shadow-md shadow-green-700/70"/>
+                <input type="text" placeholder="Email" name="Email"  className="max-w-xl h-8 rounded-md text-neutral-600 bg-transparent border-b outline-none border-neutral-600 shadow-md shadow-green-700/70" onChange={(e) => setEmail(e.target.value)}/>
                 <FaUser className="absolute text-neutral-600 mb-2  "/>
               </div>
               <div className="relative flex justify-end items-end  ">
-                <input type="password" placeholder="Password" name="Password"  className="max-w-xl h-8 rounded-md text-neutral-600 bg-transparent border-b outline-none border-neutral-600 shadow-md shadow-green-700/70"  />
+                <input type="password" placeholder="Password" name="Password"  className="max-w-xl h-8 rounded-md text-neutral-600 bg-transparent border-b outline-none border-neutral-600 shadow-md shadow-green-700/70" onChange={(e) => setPassword(e.target.value)}  />
                 <FaLock className="absolute text-neutral-600 mb-2  "  />
               </div>
             </div>
